@@ -1,0 +1,11 @@
+{
+    "input": "/path/to/samplesheet.csv",
+    "outdir": "gex_testrun_date",
+    "multiqc_title": "scrnaseq_gex_testrun",
+    "aligner": "cellranger",
+    "fasta": "/vcu_gpfs2/home/mccbnfolab/src/cellranger-6.0.1/refdata/refdata-gex-mm10-2020-A/fasta/genome.fa",
+    "gtf": "/vcu_gpfs2/home/mccbnfolab/src/cellranger-6.0.1/refdata/refdata-gex-mm10-2020-A/genes/genes.gtf",
+    "save_reference": true,
+    "cellranger_index": "/path/to/cellranger-6.0.1/refdata/refdata-gex-mm10-2020-A",
+    "skip_cellbender": true
+}
